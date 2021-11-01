@@ -1,3 +1,6 @@
+# Computational Linear Algebra ex2
+# By: Nick Space Cowboy
+
 clear all;
 # Does the same thing as ex1.m except only x is output
 

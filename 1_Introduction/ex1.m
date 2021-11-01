@@ -1,3 +1,6 @@
+# Computational Linear Algebra ex1
+# By: Nick Space Cowboy
+
 clear all;
 
 # Generates a random 10x10 matrix with non-zero ints up to 100
