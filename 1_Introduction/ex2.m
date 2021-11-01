@@ -9,7 +9,9 @@ b = zeros(1,1000)';
 # Makes the 6th element of the b vector 3
 b(69) = 12;
 
-# Solves Ax=b for x and times how long it takes
+# Solves Ax=b for x and times how long it takes + confirms it
 tic
-x = A\b
+x = A\b;
+c = A*x;
+c(69)
 toc
