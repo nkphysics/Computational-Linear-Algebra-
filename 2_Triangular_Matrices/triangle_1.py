@@ -1,3 +1,6 @@
+# Computational Linear Algebra Ep#2 ex1
+# By: Nick Space Cowboy
+
 import numpy as np
 import time
 
