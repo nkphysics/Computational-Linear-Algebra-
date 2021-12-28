@@ -13,8 +13,8 @@ class Cowboy_Lin_Alg(object):
 				x[i] += (- (Utri[i, j] * x[j])) / Utri[i,i]
 		return x
 		
-	def SGE(self, Am, b):
-		n = len(Am)
+	def SGE(self, A, b):
+		n = len(A)
 		l = np.zeros([n, n], dtype=np.float64)
 		for i in range(0, n, 1):
 			for j in range(i+1, n, 1):
