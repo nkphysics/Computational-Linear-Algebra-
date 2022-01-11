@@ -6,7 +6,7 @@ close all;
 
 function [L, U] = LU(A) 
 	# takes an input A matrix decomposes it into a lower and upper triangular matrix
-	n = length(A);
+	n = length(A)
 	L = eye(n,n);
 	for k=1:1:n
 		for l=(k+1):1:n
@@ -19,4 +19,4 @@ endfunction
 
 A = randi(100, 5, 5)# genertates random A matrix
 [L, U] = LU(A)# Exctacts a lower and upper triangular matrix with our created LU function
-check = L*U	# checks that our result is in fact correctly decomposed
+check = L*U	# checks that our result is in fact correctly
