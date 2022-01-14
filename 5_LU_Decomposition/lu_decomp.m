@@ -6,7 +6,7 @@ close all;
 
 function [L, U] = LU(A) 
 	# takes an input A matrix decomposes it into a lower and upper triangular matrix
-	n = length(A)
+	n = length(A);
 	L = eye(n,n);
 	for k=1:1:n
 		for l=(k+1):1:n
