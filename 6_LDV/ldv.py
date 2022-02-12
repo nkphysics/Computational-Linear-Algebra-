@@ -8,7 +8,6 @@ if __name__ == "__main__":
 	A = np.array(np.random.randint (0,100,(4,4)), dtype=np.float64)
 	print("A: ")
 	print(A)
-	# perform LU decomposition with our LinAlg LU function
 	L, D, V = lin_alg.LDV(A)
 	print("L:")
 	print(L)

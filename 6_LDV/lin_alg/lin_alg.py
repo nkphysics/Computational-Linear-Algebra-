@@ -1,4 +1,4 @@
-# Cowboy Linear Algebra python library at Video #5
+# Cowboy Linear Algebra python library at Video #6
 # By: Nick the Space Cowboy
 
 import numpy as np
@@ -14,8 +14,10 @@ def back_sub(Utri, b):
 	return x
 		
 def SGE(A, b=None):
-	# function to perform structured gaussian elimination 
-	# If a b vector isn't passed through, a LU decomposition is returned
+	'''
+	function to perform structured gaussian elimination 
+	If a b vector isn't passed through, a LU decomposition is returned
+	'''
 	n = len(A)
 	L = np.identity(n, dtype=np.float64)
 	for i in range(0, n, 1):
@@ -32,7 +34,9 @@ def SGE(A, b=None):
 		return A, b
 	
 def LU(A):
-	# Function to perform LU decomposition
+	'''
+	Function to perform LU decomposition
+	'''
 	return SGE(A)
 	
 def LDV(A):

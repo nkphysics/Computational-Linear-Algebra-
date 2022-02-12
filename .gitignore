@@ -1,0 +1,6 @@
+__pycache__/
+lib/
+lib64/
+dist/
+build/
+*.pyc
