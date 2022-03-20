@@ -4,7 +4,7 @@ clear all;
 close all;
 
 A = [randi(100), 5, 4;
-	 3, randi(100), 9;
+	 5, randi(100), 9;
 	 4, 9, randi(100)]
 L = chol(A)'
 check = L * L'
