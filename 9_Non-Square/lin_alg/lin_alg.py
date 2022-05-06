@@ -3,17 +3,26 @@
 
 import numpy as np
 
-def back_sub(Utri, b):
-	# back substitution alogrithm for solving upper triangular system
-	n = len(Utri) # row dimension of the Utri matrix
-	x = np.zeros_like(b, dtype=np.float64)
-	for i in range(n - 1, -1, -1):	# loop to iterate through row index
-		x[i] += b[i] / Utri[i,i]
-		for j in range(n-1, i, -1):	# loop to iterate through the off diagonal Sum part
-			x[i] += (- (Utri[i, j] * x[j])) / Utri[i,i]
+def back_sub(Utri, c):
+	'''
+	back substitution alogrithm for solving upper triangular system
+	'''
+	m = len(Utri) # row dimension of the Utri matrix
+	n = len(Utri[0]) # column dimension of the Utri matrix
+	x = np.zeros([n, 1], dtype=np.float64)
+	b = np.array(c, dtype=np.float64)
+	t1 = 0
+	if m > n:
+		# ct1 = m
+		# m = n
+		raise Exception ("More rows than columns (Use a different method)")
+	for i in range(m - 1, -1, -1):	# loop to iterate through row index
+		x[i] += b[i] / Utri[i, i]
+		for j in range(n - 1 , i, -1):	# loop to iterate through the off diagonal Sum part
+			x[i] += (- (Utri[i, j] * x[j])) / Utri[i, i]
 	return x
 		
-def SGE(A, b=None):
+def SGE(A, b=0):
 	'''
 	function to perform structured gaussian elimination 
 	If a b vector isn't passed through, a LU decomposition is returned
@@ -22,18 +31,20 @@ def SGE(A, b=None):
 	n = len(A[0])
 	L = np.identity(m, dtype=np.float64)
 	U = np.array(A)
+	c = np.array(b)
+	b_state = isinstance(b, np.ndarray)
 	for i in range(0, n, 1):
 		for j in range(i+1, m, 1):
 			L[j,i] = U[j,i] / U[i,i]
 			U[j] = U[j] - (L[j,i] * U[i])
-			if b == None:
+			if b_state == False:
 				pass
 			else:
-				b[j] = b[j] - (L[j,i] * b[i])
-	if b==None:
+				c[j] = c[j] - (L[j,i] * c[i])
+	if b_state==False:
 		return L, U
 	else:
-		return U, b
+		return U, c
 	
 def LU(A):
 	'''
@@ -51,7 +62,7 @@ def LDV(A):
 	D = np.identity(m, dtype=np.float64)
 	for i in range(0, m, 1):
 		for j in range(0, n, 1):
-			if i ==j: 
+			if i == j: 
 				D[i, j] = U[i, j]
 	V = np.dot(np.linalg.inv(D), U)
 	return L, D, V

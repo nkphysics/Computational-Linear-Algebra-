@@ -5,7 +5,7 @@ import numpy as np
 from lin_alg import lin_alg
 
 if __name__ == "__main__":
-	A = np.array(np.random.randint (0,100,(2, 5)), dtype=np.float64)
+	A = np.array(np.random.randint (0,100,(4, 6)), dtype=np.float64)
 	print("A: ")
 	print(A)
 	L, D, V = lin_alg.LDV(A)
