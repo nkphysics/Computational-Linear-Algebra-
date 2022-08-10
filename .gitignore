@@ -4,3 +4,7 @@ lib64/
 dist/
 build/
 *.pyc
+line-fitting-animation.py
+*.gif
+*.jpg
+*.mp4
