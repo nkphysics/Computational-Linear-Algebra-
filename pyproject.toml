@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "computational-linear-algebra-"
+version = "0.0.14"
+description = ""
+authors = ["Tsar Bomba Nick <njkuechel@protonmail.com>"]
+license = "LICENSE.md"
+readme = "README.md"
+packages = [{include = "computational_linear_algebra_"}]
+
+[tool.poetry.dependencies]
+python = ">=3.8"
+matplotlib = "^3.6.3"
+numpy = "^1.24.2"
+pandas = "^1.5.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
