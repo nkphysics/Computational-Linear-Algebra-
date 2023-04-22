@@ -8,3 +8,4 @@ line-fitting-animation.py
 *.gif
 *.jpg
 *.mp4
+.ipynb_checkpoints/
