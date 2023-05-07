@@ -9,3 +9,4 @@ line-fitting-animation.py
 *.jpg
 *.mp4
 .ipynb_checkpoints/
+venv/
