@@ -79,7 +79,7 @@ python-json-logger==2.0.7
 pytz==2023.3
 PyYAML==6.0
 pyzmq==25.0.2
-requests==2.30.0
+requests>=2.31.0
 rfc3339-validator==0.1.4
 rfc3986-validator==0.1.1
 Send2Trash==1.8.2
@@ -89,7 +89,7 @@ soupsieve==2.4.1
 stack-data==0.6.2
 terminado==0.17.1
 tinycss2==1.2.1
-tornado==6.3.1
+tornado>=6.3.2
 traitlets==5.9.0
 tzdata==2023.3
 uri-template==1.2.0
