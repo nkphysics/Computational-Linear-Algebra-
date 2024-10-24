@@ -47,3 +47,6 @@ algebra. The contents are divided into three units. Each bit of code corresponds
 	+ Video: https://youtu.be/kyG8YMIfNA0
 * [Numerical Methods for Computing Eigenvalues](https://github.com/nkphysics/Computational-Linear-Algebra-/blob/master/Unit3/Computing-Eigenvalues/computing-eigenvalues.ipynb)
 	+ Video: https://youtu.be/5sFQdEl9MTU
+
+* [Singular Value Decomposition](https://github.com/nkphysics/Computational-Linear-Algebra-/blob/master/Unit3/SVD/svd.ipynb)
+	+ Video: TBD
