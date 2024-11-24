@@ -49,4 +49,4 @@ algebra. The contents are divided into three units. Each bit of code corresponds
 	+ Video: https://youtu.be/5sFQdEl9MTU
 
 * [Singular Value Decomposition](https://github.com/nkphysics/Computational-Linear-Algebra-/blob/master/Unit3/SVD/svd.ipynb)
-	+ Video: TBD
+	+ Video: https://youtu.be/O9loiz1AcZg
