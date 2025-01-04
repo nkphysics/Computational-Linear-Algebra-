@@ -50,3 +50,8 @@ algebra. The contents are divided into three units. Each bit of code corresponds
 
 * [Singular Value Decomposition](https://github.com/nkphysics/Computational-Linear-Algebra-/blob/master/Unit3/SVD/svd.ipynb)
 	+ Video: https://youtu.be/O9loiz1AcZg
+
+### Unit 4 : Applications of Singular Values
+
+* [The Moore-Penrose Pseudo-Inverse](https://github.com/nkphysics/Computational-Linear-Algebra-/blob/master/Unit4/pseudo-inverse/pseudo-inverse.ipynb)
+	+ Video: TBD
