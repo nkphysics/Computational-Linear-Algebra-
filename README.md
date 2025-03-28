@@ -1,7 +1,8 @@
 **Computational and Numerical Linear Algebra**
 
-This repository contains example code and Python Jupyter notebooks on various topics related to computational and numerical linear 
-algebra. The contents are divided into three units. Each bit of code corresponds to a youtube discussing it and the broader topics in linear algebra.
+This repository contains example code and Python Jupyter notebooks on various topics related to computational and numerical linear algebra. The contents are divided by (rough) units. Most code corresponds to a youtube video discussing it and the broader topics in linear algebra.
+
+At the end of the day this is a place where I can put my notes/experiments for concepts/applications/tests involving numcerical linear algebra.
 
 ### Unit 1: Matrix Decompositions
 
@@ -54,4 +55,7 @@ algebra. The contents are divided into three units. Each bit of code corresponds
 ### Unit 4 : Applications of Singular Values
 
 * [The Moore-Penrose Pseudo-Inverse](https://github.com/nkphysics/Computational-Linear-Algebra-/blob/master/Unit4/pseudo-inverse/pseudo-inverse.ipynb)
+	+ Video: https://youtu.be/5WHRLj77Tmw
+
+* [Numerical Methods for Determinants](https://github.com/nkphysics/Computational-Linear-Algebra-/blob/master/Unit4/determinants/determinants.ipynb)
 	+ Video: TBD
