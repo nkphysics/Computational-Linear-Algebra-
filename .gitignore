@@ -6,7 +6,7 @@ build/
 *.pyc
 line-fitting-animation.py
 *.gif
-*.jpg
+rust*.jpg
 *.mp4
 .ipynb_checkpoints/
 venv/
