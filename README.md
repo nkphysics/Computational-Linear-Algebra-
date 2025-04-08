@@ -59,3 +59,6 @@ At the end of the day this is a place where I can put my notes/experiments for c
 
 * [Numerical Methods for Determinants](https://github.com/nkphysics/Computational-Linear-Algebra-/blob/master/Unit4/determinants/determinants.ipynb)
 	+ Video: TBD
+
+* [Data and Image Compression with the SVD](https://github.com/nkphysics/Computational-Linear-Algebra-/blob/master/Unit4/data-image-compression/data-image-compression.ipynb)
+	+ Video: TBD
