@@ -55,13 +55,11 @@ def pos_def_check(A):
 	'''
 	Checks if a matrix is positive definate
 	'''
-	pd_state = True
 	n = len(A)
 	for i in range(1, n):
 		if (A[i, i - 1] ** 2) >= A[i, i]:
-			raise Exception ("Marix is not positive definate")
-			pd_state =  False
-	return pd_state
+			return False
+	return True
 	
 def cholesky(A):
 	'''
