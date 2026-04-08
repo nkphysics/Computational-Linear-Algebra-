@@ -61,4 +61,7 @@ At the end of the day this is a place where I can put my notes/experiments for c
 	+ Video: https://youtu.be/X-zEWh0e7qU
 
 * [Data and Image Compression with the SVD](https://github.com/nkphysics/Computational-Linear-Algebra-/blob/master/Unit4/data-image-compression/data-image-compression.ipynb)
-	+ Video: TBD
+	+ Video: https://youtu.be/n_anxPvtg0o
+ 
+* [Dimensionality Reduction](https://github.com/nkphysics/Computational-Linear-Algebra-/blob/master/Unit4/dimensionality-reduction/dimensionality-reduction.ipynb)
+    + Video: TBD
